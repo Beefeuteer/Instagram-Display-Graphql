@@ -1,0 +1,36 @@
+query GetShortToken{
+  getShortLivedAccessToken{
+    access_token
+    user_id
+  }
+}
+  query GetLongLivedToken {
+        getLongLivedAccessToken{
+          access_token
+          token_type
+          expires_in
+        }
+     }
+
+     query getProfileData {
+  getProfileData{
+    account_type
+    id
+    media_count
+    username
+  }
+}
+
+query getMediaData{
+  getUserMediaData{
+    caption
+    id
+    media_type
+    media_url
+    permalink
+    thumbnail_url
+    timestamp
+    username
+
+  }
+}
