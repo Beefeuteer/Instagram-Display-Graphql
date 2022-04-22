@@ -1,4 +1,4 @@
-# Instagram-Display-Graphql \
+# Instagram-Display-Graphql
  \
  \
 You need to fill the .env to make this project work. \
