@@ -17,7 +17,7 @@ You need to fill the .env to make this project work. \
 +click query GetShortToken and paste it to "SHORT_LIVED_AT =" on the .env \
 +then run the GetLongLivedToken and paste it to "LONG_LIVED_AT = " on the .env \
  \
-+After everything is filled you can use the "getProfileData" and "getMediaData" on the query to get the information about the profile. \
++After everything is filled you can use the "getProfileData" and "getMediaData" on the query to get the information about the profile.
 
 ********* .env ********* \
 INSTAGRAM_APP_ID = \
@@ -26,5 +26,5 @@ REDIRECT_URI = https://httpstat.us/200 \
 AUTHORIZATION_CODE = \
 SHORT_LIVED_AT = \
 LONG_LIVED_AT = \
-********* .env ********* \
+********* .env ********* 
   
